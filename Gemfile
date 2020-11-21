@@ -17,7 +17,6 @@ gem 'jquery-rails'
 gem 'redcarpet', '~> 2.3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'webpacker', '~> 3.5'
-
 # Backend
 gem 'carrierwave'
 gem 'friendly_id', '~> 5.1.0'
@@ -41,6 +40,8 @@ group :development, :test do
   gem 'guard-rspec'
   gem 'pry-byebug'
   gem 'pry-rails'
+  gem 'better_errors'
+  gem 'binding_of_caller'
   gem 'rspec-rails'
   gem 'rubocop', require: false
   gem 'rubocop-rails'
@@ -62,6 +63,7 @@ group :development do
   gem 'listen', '~> 3.0.5'
   gem 'rack-mini-profiler', require: false
   gem 'web-console', '>= 3.3.0'
+  gem 'letter_opener_web'
 end
 
 group :test do
