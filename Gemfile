@@ -41,6 +41,8 @@ group :development, :test do
   gem 'guard-rspec'
   gem 'pry-byebug'
   gem 'pry-rails'
+  gem 'better_errors'
+  gem 'binding_of_caller'
   gem 'rspec-rails'
   gem 'rubocop', require: false
   gem 'rubocop-rails'
